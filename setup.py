@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 if __name__ == '__main__':
@@ -7,7 +7,7 @@ if __name__ == '__main__':
         version="0.1.0",
         description="Utiliity to convert text file encoding",
         author="Scott Hajek",
-        packages=find_packages(),
+        py_modules=['convencode'],
         entry_points={
             'console_scripts': [
                 "convencode = convencode:main"
